@@ -1,4 +1,5 @@
 {
     "/css/web/bulma.css": "/css/web/bulma.css",
-    "/assets/web/icons/font-awesome.css": "/assets/web/icons/font-awesome.css"
+    "/assets/web/icons/font-awesome.css": "/assets/web/icons/font-awesome.css",
+    "/css/web/bulma-social.css": "/css/web/bulma-social.css"
 }
