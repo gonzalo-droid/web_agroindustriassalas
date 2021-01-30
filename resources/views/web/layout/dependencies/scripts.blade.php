@@ -5,5 +5,16 @@
         initialSlide: 0,
         slidesToScroll: 1,
         slidesToShow: 1,
+        autoplay: true,
+        infinite: true,
+        effect: "translate",
+        duration: 2000,
+        autoplaySpeed: 6000,
+        timing: "ease",
+        pauseOnHover: true,
+        breakpoints: [
+            { changePoint: 480, slidesToShow: 1, slidesToScroll: 1 }, 
+            { changePoint: 640, slidesToShow: 1, slidesToScroll: 1 }, 
+            { changePoint: 768, slidesToShow: 1, slidesToScroll: 1 } ]
     });
 </script>

@@ -26,14 +26,27 @@
     color: var(--green-light);
 }
 
+/* 
+
+=================================
+            CAROUSEL  
+=================================
+
+*/
+
 #carousel-section {
-    background-color: #f7f7f7 !important;
+    background-color: rgb(168, 201, 116) !important;
     padding: 50px 0;
     margin-bottom: 50px;
 }
 
 #carousel-demo {
     margin-top: 50px;
+}
+
+.slider {
+    outline: none;
+    border: none;
 }
 
 #card-product-description {
@@ -101,11 +114,19 @@ textarea {
     outline-color: none !important;
 }
 
-#map {
+/* #map {
     width: 100% !important;
     height: 400px;
     margin-bottom: 50px;
-}
+} */
+
+/* 
+
+=================================
+            FOOTER  
+=================================
+
+*/
 
 .footer-main {
     background-color: white !important;
@@ -126,12 +147,12 @@ textarea {
     color: white !important;
 }
 
-.button.is-orange {
+.button.is-button-green {
     background-color: var(--green-dark) !important;
     color: white !important;
 }
 
-.button.is-orange:hover {
+.button.is-button-green:hover {
     background-color: white !important;
     color: var(--green-dark) !important;
 }

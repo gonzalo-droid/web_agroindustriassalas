@@ -35,7 +35,7 @@
                 <div class="column">
                     <h4 class="title is-4"> {{ __('About Us') }} </h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consequuntur ad minima impedit nemo dolorem quae at, ipsum iste ex.
+                        {{ __('Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consequuntur ad minima impedit nemo dolorem quae at, ipsum iste ex.') }}
                     </p>
                 </div>
                 <div class="column">
@@ -63,7 +63,7 @@
         <p class="has-text-light">
             {{ __('Copyright © 2021 | AgroIndustrias Salas | By') }}
             <strong>
-                <a href="https://codecix.com" target="_blank" class="link-active has-text-grey-light"> {{ __('Codecix') }} </a>
+                <a href="https://codecix.com" target="_blank" class="link-active has-text-grey-light"> Codecix </a>
             </strong>
         </p>
     </div>
