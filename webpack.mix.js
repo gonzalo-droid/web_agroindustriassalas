@@ -12,5 +12,5 @@ mix.sass("resources/sass/bulma-social.scss", "public/css/web");
 
 // Configuración
 
-mix.browserSync("http://localhost:8000");
-mix.disableNotifications();
+// mix.browserSync("http://localhost:8000");
+// mix.disableNotifications();
