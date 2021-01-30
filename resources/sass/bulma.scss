@@ -1,1 +1,23 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+// Set your brand colors
+$green-dark: #2a6941;
+$green-light: #88d30d;
+$black: #282829;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+
+// Update Bulma's global variables
+$grey-dark: $black;
+$grey-light: $beige-light;
+$primary: $green-dark;
+$link: $green-light;
+
+// Update some of Bulma's component variables
+$control-border-width: 2px;
+$input-background-color: $beige-lighter;
+$input-border-color: transparent;
+$input-shadow: none;
+
 @import "~bulma/bulma.sass";

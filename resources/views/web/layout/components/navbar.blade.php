@@ -27,7 +27,7 @@
                     <a class="navbar-item" href="services.html"> Services</a>
                     <a class="navbar-item" href="contact.html"> Contact us</a>
                     <div class="buttons">
-                        <a class="button is-primary is-orange">
+                        <a class="button is-primary">
                             <strong>Get a quote</strong>
                         </a>
                     </div>
