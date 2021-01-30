@@ -149,7 +149,7 @@
   </div>
 </section>
 
-<section class="section">
+{{-- <section class="section">
   <div class="container">
     <div class="has-text-centered pb-6">
       <h1 class="title is-1">Fresh Fruits</h1>
@@ -263,13 +263,13 @@
       </div>
     </div>
   </div>
-</section>
+</section> --}}
 
 <section class="section" id="tasty-fruits-section">
   <h1 class="title is-1 is-white-text-title has-text-centered">VERY TASTY FRUITS</h1>
 </section>
 
-<section class="section">
+{{-- <section class="section">
   <div class="has-text-centered">
     <h1 class="title is-1">Testimonial</h1>
     <h4 class="subtitle">
@@ -310,7 +310,7 @@
       <!-- end of second -->
     </div>
   </div>
-</section>
+</section> --}}
 
 <section class="section" id="contact-section">
   <div class="container">
@@ -339,11 +339,11 @@
   </div>
 </section>
 
-<section class="map-section">
+{{-- <section class="map-section">
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10499.966498430253!2d2.2944813!3d48.8583701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ddca9ee380ef7e0!2zz4DPjc-BzrPOv8-CIM-Ezr_PhSDOkc6Qz4bOtc67!5e0!3m2!1sel!2sgr!4v1609878476869!5m2!1sel!2sgr"
     id="map"
   ></iframe>
-</section>
+</section> --}}
 
 @endsection

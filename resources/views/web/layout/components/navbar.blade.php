@@ -32,7 +32,7 @@
                     </div>
                     <div class="navbar-item is-flex is-justify-content-center">
                         <a class="button is-primary">
-                            <strong>{{ __('Contact Us') }}</strong>
+                            <strong> {{ __('Contact Us') }} </strong>
                         </a>
                     </div>
                 </div>

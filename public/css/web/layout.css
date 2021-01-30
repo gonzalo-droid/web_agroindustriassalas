@@ -21,7 +21,8 @@
     }
 }
 
-.link-active {
+.link-active,
+.link-active:hover {
     color: var(--green-light);
 }
 
@@ -108,12 +109,16 @@ textarea {
 
 .footer-main {
     background-color: white !important;
-    padding: 0 !important;
+    padding: 20px !important;
+}
+
+.footer-list {
+    list-style: none !important;
+    margin-left: 0 !important;
 }
 
 .footer-secondary {
     padding: 20px;
-    margin-top: 20px;
 }
 
 .button.is-black {

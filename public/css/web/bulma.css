@@ -617,7 +617,7 @@ a.box:active {
 
 .button:hover,
 .button.is-hovered {
-  border-color: #d0d1cd;
+  border-color: #88d30d;
   color: #363636;
 }
 
@@ -3633,7 +3633,7 @@ a.tag:hover {
 .select select.is-hovered,
 .is-hovered.textarea,
 .is-hovered.input {
-  border-color: #d0d1cd;
+  border-color: #88d30d;
 }
 
 .select select:focus,
@@ -5131,7 +5131,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .breadcrumb li + li::before {
-  color: #d0d1cd;
+  color: #88d30d;
   content: "/";
 }
 
@@ -7200,7 +7200,7 @@ a.navbar-item.is-active,
 .pagination-previous:hover,
 .pagination-next:hover,
 .pagination-link:hover {
-  border-color: #d0d1cd;
+  border-color: #88d30d;
   color: #363636;
 }
 
@@ -7240,7 +7240,7 @@ a.navbar-item.is-active,
 }
 
 .pagination-ellipsis {
-  color: #d0d1cd;
+  color: #88d30d;
   pointer-events: none;
 }
 
@@ -7672,7 +7672,7 @@ label.panel-block:hover {
 
 .tabs.is-toggle a:hover {
   background-color: whitesmoke;
-  border-color: #d0d1cd;
+  border-color: #88d30d;
   z-index: 2;
 }
 
@@ -10279,11 +10279,11 @@ a.has-text-danger-dark:focus {
 }
 
 .has-text-grey-light {
-  color: #d0d1cd !important;
+  color: #88d30d !important;
 }
 
 .has-background-grey-light {
-  background-color: #d0d1cd !important;
+  background-color: #88d30d !important;
 }
 
 .has-text-grey-lighter {
