@@ -1,14 +1,76 @@
-.navbar-item {
-    padding-right: 40px !important;
-    font-size: large !important;
+:root {
+    --green-dark: #2a6941;
+    --green-light: #88d30d;
+    --black: #282829;
+    --beige-light: #d0d1cd;
+    --beige-lighter: #eff0eb;
 }
 
-.navbar-item:hover {
+/* 
+
+=================================
+            UTILITIES  
+=================================
+
+*/
+
+.button.is-black {
+    background-color: black !important;
+    color: white !important;
+}
+
+.button.is-button-green {
+    background-color: var(--green-dark) !important;
+    color: white !important;
+}
+
+.button.is-button-green:hover {
+    background-color: white !important;
+    color: var(--green-dark) !important;
+}
+.button.is-black:hover {
     background-color: white !important;
     color: black !important;
 }
+
+.is-black-social {
+    color: black !important;
+}
+.is-black-social:hover {
+    background-color: white !important;
+    color: var(--green-dark) !important;
+}
+
+/* 
+
+=================================
+            NAVBAR  
+=================================
+
+*/
+
+@media (min-width: 1024px) {
+    .navbar-item {
+        padding-right: 40px;
+        font-size: large;
+    }
+}
+
+.link-active,
+.link-active:hover {
+    color: var(--green-light);
+}
+
+/* 
+
+=================================
+            CAROUSEL  
+=================================
+
+*/
+
 #carousel-section {
-    background-color: #f7f7f7 !important;
+    background-color: rgb(168, 201, 116) !important;
     padding: 50px 0;
     margin-bottom: 50px;
 }
@@ -17,28 +79,52 @@
     margin-top: 50px;
 }
 
+.slider {
+    outline: none;
+    border: none;
+}
+
+/* 
+
+=================================
+            CATEGORIES  
+=================================
+
+*/
+
 #card-product-description {
-    color: orange;
+    color: var(--green-dark);
 }
 
-#fresh-fruits-section {
+.card:hover {
+    transform: scale(1.02);
+    border-top: 5px solid var(--green-dark);
+}
+
+/* 
+
+=================================
+            BANNER  
+=================================
+
+*/
+
+/* #fresh-fruits-section {
     margin-top: 50px;
-}
+} */
 
-#tasty-fruits-section {
-    background-image: url(https://technext.github.io/tropika/images/tasty-image.png);
+#banner-section {
+    background-image: url("/assets/web/images/banner.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100%;
     height: 400px;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-top: 50px;
     margin-bottom: 100px;
-}
-
-.card:hover {
-    transform: scale(1.02);
-    border-top: 5px solid #fc5d35;
 }
 
 .is-white-text-title {
@@ -50,6 +136,14 @@
     width: 256px !important;
     height: 256px !important;
 }
+
+/* 
+
+=================================
+            CONTACT  
+=================================
+
+*/
 
 #contact-section {
     background-image: url(https://technext.github.io/tropika//images/orange-dish.png);
@@ -82,45 +176,30 @@ textarea {
     outline-color: none !important;
 }
 
-#map {
+/* #map {
     width: 100% !important;
     height: 400px;
     margin-bottom: 50px;
-}
+} */
+
+/* 
+
+=================================
+            FOOTER  
+=================================
+
+*/
 
 .footer-main {
     background-color: white !important;
-    padding: 0 !important;
+    padding: 20px !important;
+}
+
+.footer-list {
+    list-style: none !important;
+    margin-left: 0 !important;
 }
 
 .footer-secondary {
     padding: 20px;
-    margin-top: 20px;
-}
-
-.button.is-black {
-    background-color: black !important;
-    color: white !important;
-}
-
-.button.is-orange {
-    background-color: #fc5d35 !important;
-    color: white !important;
-}
-
-.button.is-orange:hover {
-    background-color: white !important;
-    color: #fc5d35 !important;
-}
-.button.is-black:hover {
-    background-color: white !important;
-    color: black !important;
-}
-
-.is-black-social {
-    color: black !important;
-}
-.is-black-social:hover {
-    background-color: white !important;
-    color: #fc5d35 !important;
 }
