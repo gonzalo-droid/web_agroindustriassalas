@@ -9,6 +9,41 @@
 /* 
 
 =================================
+            UTILITIES  
+=================================
+
+*/
+
+.button.is-black {
+    background-color: black !important;
+    color: white !important;
+}
+
+.button.is-button-green {
+    background-color: var(--green-dark) !important;
+    color: white !important;
+}
+
+.button.is-button-green:hover {
+    background-color: white !important;
+    color: var(--green-dark) !important;
+}
+.button.is-black:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.is-black-social {
+    color: black !important;
+}
+.is-black-social:hover {
+    background-color: white !important;
+    color: var(--green-dark) !important;
+}
+
+/* 
+
+=================================
             NAVBAR  
 =================================
 
@@ -49,28 +84,47 @@
     border: none;
 }
 
+/* 
+
+=================================
+            CATEGORIES  
+=================================
+
+*/
+
 #card-product-description {
     color: var(--green-dark);
 }
 
-#fresh-fruits-section {
-    margin-top: 50px;
+.card:hover {
+    transform: scale(1.02);
+    border-top: 5px solid var(--green-dark);
 }
 
-#tasty-fruits-section {
-    background-image: url(https://technext.github.io/tropika/images/tasty-image.png);
+/* 
+
+=================================
+            BANNER  
+=================================
+
+*/
+
+/* #fresh-fruits-section {
+    margin-top: 50px;
+} */
+
+#banner-section {
+    background-image: url("/assets/web/images/banner.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100%;
     height: 400px;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-top: 50px;
     margin-bottom: 100px;
-}
-
-.card:hover {
-    transform: scale(1.02);
-    border-top: 5px solid var(--green-dark);
 }
 
 .is-white-text-title {
@@ -82,6 +136,14 @@
     width: 256px !important;
     height: 256px !important;
 }
+
+/* 
+
+=================================
+            CONTACT  
+=================================
+
+*/
 
 #contact-section {
     background-image: url(https://technext.github.io/tropika//images/orange-dish.png);
@@ -140,31 +202,4 @@ textarea {
 
 .footer-secondary {
     padding: 20px;
-}
-
-.button.is-black {
-    background-color: black !important;
-    color: white !important;
-}
-
-.button.is-button-green {
-    background-color: var(--green-dark) !important;
-    color: white !important;
-}
-
-.button.is-button-green:hover {
-    background-color: white !important;
-    color: var(--green-dark) !important;
-}
-.button.is-black:hover {
-    background-color: white !important;
-    color: black !important;
-}
-
-.is-black-social {
-    color: black !important;
-}
-.is-black-social:hover {
-    background-color: white !important;
-    color: var(--green-dark) !important;
 }
