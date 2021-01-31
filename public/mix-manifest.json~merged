@@ -1,0 +1,10 @@
+{
+<<<<<<< HEAD
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css"
+=======
+    "/css/web/bulma.css": "/css/web/bulma.css",
+    "/assets/web/icons/font-awesome.css": "/assets/web/icons/font-awesome.css",
+    "/css/web/bulma-social.css": "/css/web/bulma-social.css"
+>>>>>>> 06ad3da18014402b99d7f64e10f910a94855f0db
+}
