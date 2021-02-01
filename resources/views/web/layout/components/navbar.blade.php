@@ -23,15 +23,15 @@
 
             <div class="navbar-end">
                 <div class="navbar-item">
-                    <a class="navbar-item has-text-centered link-active" href="#"> {{ __('Home') }} </a>
-                    <a class="navbar-item has-text-centered" href="#"> {{ __('Products') }} </a>
-                    <a class="navbar-item has-text-centered" href="#"> {{ __('About Us') }} </a>
+                    <a class="navbar-item has-text-centered link-active" href="{{ route('home') }}"> {{ __('Home') }} </a>
+                    <a class="navbar-item has-text-centered" href="{{ route('products') }}"> {{ __('Products') }} </a>
+                    <a class="navbar-item has-text-centered" href="{{ route('about-us') }}"> {{ __('About Us') }} </a>
                     <div class="navbar-item is-flex is-justify-content-center is-align-items-center">
                         <a class="button ml-2 mr-1 is-secondary" href="#"> ES </a>
                         <a class="button mr-2 ml-1 has-background-grey-dark has-text-light" href="#"> EN </a>
                     </div>
                     <div class="navbar-item is-flex is-justify-content-center">
-                        <a class="button is-primary">
+                        <a class="button is-primary" href="{{ route('contact-us') }}">
                             <strong> {{ __('Contact Us') }} </strong>
                         </a>
                     </div>
