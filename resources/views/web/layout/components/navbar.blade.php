@@ -2,8 +2,8 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ route('home') }}">
-                <figure class="image">
-                    <img style="width: 40%" src="{{ asset('/assets/web/images/logotipo.png') }}" />
+                <figure class="image is-128x128">
+                    <img  src="{{ asset('/assets/web/images/logotipo.png') }}" />
                 </figure>
             </a>
             <a
