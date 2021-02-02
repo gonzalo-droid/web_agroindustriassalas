@@ -6,6 +6,8 @@
 
         @include('web.layout.dependencies.styles')
 
+        @yield('styles')
+
     </head>
     <body>
       
@@ -18,5 +20,7 @@
     </body>
 
     @include('web.layout.dependencies.scripts')
+
+    @yield('scripts')
 
 </html>

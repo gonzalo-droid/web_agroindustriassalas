@@ -4,7 +4,3 @@
 <link rel="stylesheet" href="{{ asset('/css/web/layout.css') }}" />
 <link href="{{ asset('/assets/web/images/favicon.ico') }}" rel="icon">
 <link href="{{ asset('/assets/web/images/favicon.ico') }}" rel="apple-touch-icon">
-<link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"
-/>

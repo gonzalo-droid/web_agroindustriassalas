@@ -1,6 +1,6 @@
 <section class="section" id="carousel-section">
     <div class="container">
-      <div id="carousel-demo" class="carousel pb-6" style="overflow: hidden">
+      <div id="products" class="carousel pb-6" style="overflow: hidden">
         <div class="item-1">
           <div class="columns">
             <div class="column is-half">

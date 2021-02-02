@@ -1,4 +1,4 @@
-<section class="hero" id="contact-us">
+<section class="hero has-background-contrast" id="contact-us">
   <div class="hero-body">
     <div class="container">
       <div>
@@ -34,8 +34,11 @@
             </div>
             <div class="field">
               <label class="label"> {{ __('Email') }} </label>
-              <div class="control">
+              <div class="control has-icons-left has-icons-right">
                 <input class="input" type="email" placeholder=" {{ __('Email') }} " required />
+                <span class="icon is-small is-left">
+                  <i class="fa fa-envelope"></i>
+                </span>
               </div>
             </div>
             <div class="field">
