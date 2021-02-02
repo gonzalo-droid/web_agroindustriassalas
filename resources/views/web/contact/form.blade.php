@@ -1,26 +1,71 @@
-<section class="section" id="contact-section">
+<section class="hero has-background-contrast" id="contact-us">
+  <div class="hero-body">
     <div class="container">
-      <div class="columns">
-        <div class="column is-half">
-          <h2 class="title is-2">Contact Us</h2>
-          <form>
+      <div>
+        <div class="content">
+          <h4 class="title is-4"> {{ __('Contact Us') }} </h4>
+        </div>
+        <h6 class="subtitle is-6"> {{ __('Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, neque.') }} </h6>
+        <div class="columns box">
+          <form class="column" action="#">
             <div class="field">
-              <input class="input is-custom-field" type="text" placeholder="Name" />
-            </div>
-            <div class="field">
-              <input class="input is-custom-field" type="text" placeholder="Phone Number" />
-            </div>
-            <div class="field">
-              <input class="input is-custom-field" type="text" placeholder="Email" />
-            </div>
-            <div class="field">
+              <label class="label"> {{ __('Name and Lastname') }} </label>
               <div class="control">
-                <textarea class="textarea" placeholder="Message"></textarea>
+                <input class="input" type="text" placeholder=" {{ __('Name and Lastname') }} " required />
+              </div>
+            </div>
+            <div class="field columns">
+              <div class="column">
+                <div class="field">
+                  <label class="label"> {{ __('Company') }} </label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder=" {{ __('Company') }} " required />
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="field">
+                  <label class="label"> {{ __('Phone Number') }} </label>
+                  <div class="control">
+                    <input class="input" type="tel" placeholder=" {{ __('Phone Number') }} " required />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label"> {{ __('Email') }} </label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input" type="email" placeholder=" {{ __('Email') }} " required />
+                <span class="icon is-small is-left">
+                  <i class="fa fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label"> {{ __('Message') }} </label>
+              <div class="control">
+                <textarea
+                  class="textarea"
+                  type="text"
+                  placeholder=" {{ __('Type your message here ...') }} "
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label"></label>
+              <div class="control">
+                <button class="button is-primary is-loading is-medium is-fullwidth" type="submit"> {{ __('Submit') }} </button>
               </div>
             </div>
           </form>
+          <div class="column">
+            <figure class="image is is-covered">
+              <img src="{{ asset('/assets/web/images/products/mango/mango.png') }}" alt="" />
+            </figure>
+          </div>
         </div>
-        <div class="column is-half"></div>
       </div>
     </div>
+  </div>
 </section>

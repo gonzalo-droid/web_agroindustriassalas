@@ -8,11 +8,11 @@
 
 @section('web.content')
     
-  @include('web.home.carousel')
+  @include('web.products.hero')
 
-  @include('web.home.categories')
+  @include('web.products.slider')
 
-  @include('web.home.banner')
+  @include('web.products.detail')
 
 @endsection
 
@@ -20,10 +20,10 @@
     
   <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
   <script>
-      bulmaCarousel.attach('#products', {
+      bulmaCarousel.attach('#categories', {
           initialSlide: 0,
           slidesToScroll: 1,
-          slidesToShow: 1,
+          slidesToShow: 3,
           autoplay: true,
           infinite: true,
           effect: "translate",

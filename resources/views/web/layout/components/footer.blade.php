@@ -41,12 +41,12 @@
                 <div class="column">
                     <h4 class="title is-4"> {{ __('Follow Us') }} </h4>
                     <div class="buttons">
-                        <a class="button is-medium is-facebook is-primary-social">
+                        <a href="#" class="button is-medium is-facebook is-primary-social">
                             <span class="icon">
                                 <i class="fab fa-facebook fa-lg"></i>
                             </span>
                         </a>
-                        <a class="button is-medium is-instagram is-primary-social">
+                        <a href="#" class="button is-medium is-instagram is-primary-social">
                             <span class="icon">
                                 <i class="fab fa-instagram fa-lg"></i>
                             </span>
