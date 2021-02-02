@@ -65,12 +65,35 @@
                 <figure class="image is-128x128">
                     <img src="{{ asset('/assets/web/images/logotipo.png') }}" />
                 </figure>
-            </div>
-            <div class="column">
-                <h4 class="title is-4"> {{ __('About Us') }} </h4>
+
                 <p>
                     {{ __('Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consequuntur ad minima impedit nemo dolorem quae at, ipsum iste ex.') }}
                 </p>
+            </div>
+            <div class="column">
+                <h4 class="title is-4"> {{ __('Map website') }} </h4>
+                <div class="content">
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#" class="navbar-item pl-0">
+                                <span class="icon is-small has-text-grey-light"><i class="fas fa-arrow-right"></i></span>
+                                <span class="pl-3"> {{ __('Inicio') }} </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="navbar-item pl-0">
+                                <span class="icon is-small has-text-grey-light"><i class="fas fa-arrow-right"></i></span>
+                                <span class="pl-3"> {{ __('Nosotros') }} </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="navbar-item pl-0">
+                                <span class="icon is-small has-text-grey-light"><i class="fas fa-arrow-right"></i></span>
+                                <span class="pl-3"> {{ __('Contacto') }} </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="column">
                 <h4 class="title is-4"> {{ __('Products') }} </h4>
