@@ -138,7 +138,7 @@
             </div>
         </div>
     </div>
-    <div class="content has-text-centered">
+    <div class="content has-text-centered pt-6 mt-6">
         <p class="has-text-dark">
             {{ __('Copyright © 2021 | AgroIndustrias Salas | By') }}
             <strong>
