@@ -404,3 +404,18 @@ hr.rounded {
 .sectionf {
     padding-top: 1.5rem;
 }
+
+.navbar-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.is-logo {
+    width: 200px !important;
+    height: 96px !important;
+}
+
+.logo {
+    max-height: 100% !important;
+}
