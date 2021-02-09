@@ -72,7 +72,7 @@
 #carousel-section {
     background-color: rgb(168, 201, 116) !important;
     padding: 50px 0;
-    margin-bottom: 50px;
+    padding-bottom: 50px !important;
 }
 
 #carousel-demo {
@@ -119,8 +119,8 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    padding-top: 50px !important;
+    padding-bottom: 100px !important;
 }
 
 .is-white-text-title {
