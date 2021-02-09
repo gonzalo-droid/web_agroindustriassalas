@@ -12,6 +12,8 @@
 
   @include('web.home.categories')
 
+  @include('web.home.certificates')
+
   @include('web.home.banner')
 
 @endsection

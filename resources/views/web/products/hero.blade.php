@@ -40,7 +40,7 @@
                                 <div class="media-content">
                                     <div class="content">
                                         <p>
-                                            <strong> {{ __('Fresh') }} </strong>
+                                            <strong> {{ __('Delicious') }} </strong>
                                             <br>
                                             {{ __('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, obcaecati?') }}
                                         </p>
@@ -58,7 +58,7 @@
                                 <div class="media-content">
                                     <div class="content">
                                         <p>
-                                            <strong> {{ __('Dehydrated') }} </strong>
+                                            <strong> {{ __('Fitness') }} </strong>
                                             <br>
                                             {{ __('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, obcaecati?') }}
                                         </p>
@@ -76,7 +76,7 @@
                                 <div class="media-content">
                                     <div class="content">
                                         <p>
-                                            <strong> {{ __('Preserves') }} </strong>
+                                            <strong> {{ __('Quality') }} </strong>
                                             <br>
                                             {{ __('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, obcaecati?') }}
                                         </p>

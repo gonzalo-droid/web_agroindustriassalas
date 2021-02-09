@@ -1,4 +1,4 @@
-<section class="section">
+<section class="section has-background-contrast" style="padding: 100px 0;">
     <div class="container">
       <div class="has-text-centered" id="services-text-container">
         <h1 class="title is-1"> {{ __('Our Products') }} </h1>
