@@ -2,7 +2,6 @@
     <div class="tile is-6 is-parent column info-left">
         <div class="tile is-child pink post">
             <p class="title is-2 name"> {{ __('AgroIndustrias Salas') }} </p>
-{{--            <p class="subtitle has-text-grey job"> {{ __('About Us') }} </p>--}}
             <hr class="hr" />
             <div class="content has-text-grey description">
                 <p class="has-text-justified">

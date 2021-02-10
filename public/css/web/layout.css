@@ -61,6 +61,19 @@
     color: var(--green-light);
 }
 
+.mega-menu {
+    width: 100vw;
+    height: 20vh;
+}
+.mega-menu {
+    justify-content: center;
+    align-items: center;
+}
+
+.mega-menu-image {
+    min-height: 100%;
+}
+
 /*
 
 =================================
@@ -98,11 +111,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid var(--green-light);
 }
 
 #parallax hr {
     background: var(--green-light);
+}
+
+.hero-back {
+    background: url("/assets/web/images/products-hero.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*
@@ -424,8 +444,8 @@ hr.rounded {
 .section-detail {
     background: linear-gradient(
         180deg,
-        rgba(136, 211, 13, 0.79) 0%,
-        rgba(98, 216, 26, 0.5) 26%,
+        rgba(204, 243, 142, 0.79) 0%,
+        /* rgba(136, 211, 13, 0.79) 0%, */ rgba(98, 216, 26, 0.5) 26%,
         rgb(255 255 255) 100%
     );
     padding-top: 3rem;
