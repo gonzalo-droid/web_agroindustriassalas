@@ -229,11 +229,21 @@ textarea {
 }
 
 .info-left {
-    padding: 3.5% !important;
+    padding: 5% !important;
 }
 
 .info-right {
-    padding: 5% 0 5% 5% !important;
+    padding: 5% 0 0 0 !important;
+}
+
+@media (min-width: 768px) {
+    .info-left {
+        padding: 3.5% !important;
+    }
+
+    .info-right {
+        padding: 5% 0 5% 5% !important;
+    }
 }
 
 .image-info {
@@ -433,8 +443,15 @@ hr.rounded {
 }
 
 .is-logo {
-    width: 200px !important;
-    height: 96px !important;
+    width: 96px !important;
+    height: 64px !important;
+}
+
+@media (min-width: 768px) {
+    .is-logo {
+        width: 148px !important;
+        height: 84px !important;
+    }
 }
 
 .logo {
