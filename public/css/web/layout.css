@@ -87,6 +87,27 @@
 /*
 
 =================================
+            PARALLAX
+=================================
+
+*/
+
+#parallax {
+    background: url("/assets/web/images/parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid var(--green-light);
+}
+
+#parallax hr {
+    background: var(--green-light);
+}
+
+/*
+
+=================================
             CATEGORIES
 =================================
 

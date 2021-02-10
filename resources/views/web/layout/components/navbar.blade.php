@@ -23,9 +23,9 @@
 
             <div class="navbar-end">
                 <div class="navbar-item">
-                    <a class="navbar-item has-text-centered link-active" href="{{ route('home') }}"> {{ __('HOME') }} </a>
-                    <a class="navbar-item has-text-centered" href="{{ route('products') }}"> {{ __('PRODUCTS') }} </a>
-                    <a class="navbar-item has-text-centered" href="{{ route('about-us') }}"> {{ __('ABOUT US') }} </a>
+                    <a class="navbar-item has-text-centered link-active has-text-weight-semibold" href="{{ route('home') }}"> {{ __('HOME') }} </a>
+                    <a class="navbar-item has-text-centered has-text-weight-semibold" href="{{ route('products') }}"> {{ __('PRODUCTS') }} </a>
+                    <a class="navbar-item has-text-centered has-text-weight-semibold" href="{{ route('about-us') }}"> {{ __('ABOUT US') }} </a>
                     <div class="navbar-item is-flex is-justify-content-center is-align-items-center">
                         <a class="button ml-2 mr-1 is-secondary" href="#"> ES </a>
                         <a class="button mr-2 ml-1 has-background-grey-dark has-text-light" href="#"> EN </a>
