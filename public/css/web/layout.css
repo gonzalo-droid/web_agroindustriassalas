@@ -125,6 +125,15 @@
     background-size: cover;
 }
 
+.hero-products {
+    background: url("/assets/web/images/products-hero.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 33vh;
+}
+
 /*
 
 =================================
@@ -540,3 +549,11 @@ hr.rounded {
     background-color: rgba(0, 0, 0, 0.35);
     color: var(--beige-lighter);
 }
+
+/*
+
+=================================
+        PRODUCT-DETAIL
+=================================
+
+*/
