@@ -14,20 +14,17 @@
                             <div class="columns">
                                 <div class="column is-2">
                                     <figure class="image is-64x64 is-clickable">
-                                        <img src="https://bulma.io/images/placeholders/128x128.png">
+                                        <img class="item-mini-product" src="{{ asset('/assets/img/product-detail/esparagus-1.png') }}">
                                     </figure>
                                     <figure class="image is-64x64 is-clickable">
-                                        <img src="https://bulma.io/images/placeholders/128x128.png">
-                                    </figure>
-                                    <figure class="image is-64x64 is-clickable">
-                                        <img src="https://bulma.io/images/placeholders/128x128.png">
+                                        <img class="item-mini-product" src="{{ asset('/assets/img/product-detail/esparagus-2.png') }}">
                                     </figure>
                                 </div>
                                 <div class="column is-10">
-                                    <div x-data="{ open: false }" class="is-clickable">
-                                        <a @click="open = true" title="View large image">
+                                    <div class="is-clickable">
+                                        <a href="#" class="open-modal" title="View large image">
                                             <figure class="image is-3by2">
-                                                <img src="https://bulma.io/images/placeholders/480x320.png" alt="Example image">
+                                                <img class="item-product" src="{{ asset('/assets/img/product-detail/esparagus.png') }}" alt="Example image">
                                             </figure>
                                         </a>
                                     </div>
@@ -50,12 +47,12 @@
     </div>
 </section>
 
-<div class="modal" :class="{ 'is-active': open }">
-    <div class="modal-background" @click="open = false"></div>
+<div class="modal">
+    <div class="modal-background close-modal"></div>
         <div class="modal-content">
-            <img src="https://via.placeholder.com/1200x675" alt="Example image">
+            <img class="item-modal-product" src="{{ asset('/assets/img/product-detail/esparagus.png') }}" alt="Example image">
         </div>
-    <button class="modal-close is-large" aria-label="close" @click="{ open = false }"></button>
+    <button class="modal-close is-large close-modal" aria-label="close""></button>
 </div>
 
 <div class="container">
@@ -91,7 +88,7 @@
     
 <script>
 
-document.querySelectorAll("#tab li").forEach(function(tabElement) {
+    document.querySelectorAll("#tab li").forEach(function(tabElement) {
         tabElement.onclick = function() { toggleTab(this.id, this.dataset.target); }
     });
     
@@ -123,7 +120,36 @@ document.querySelectorAll("#tab li").forEach(function(tabElement) {
     }
 
     setMainTab('pane-1');
-    
+
+    const itemsMiniProduct = document.querySelectorAll('.item-mini-product');
+    const itemProduct = document.querySelector('.item-product');
+    const itemModalProduct = document.querySelector('.item-modal-product');
+
+    function handleImagesOfProduct() {
+        const imageNow = itemProduct.src;
+        const imageReplace = this.src;
+        this.src = imageNow;
+        itemProduct.src = imageReplace;
+    }
+
+    itemsMiniProduct.forEach(item => item.addEventListener('click', handleImagesOfProduct));
+
+    const modalImage = document.querySelector('.modal');
+    const modalCloses = document.querySelectorAll('.close-modal');
+    const modalOpen = document.querySelector('.open-modal');
+
+
+    function handleModal() {
+        if (modalImage.classList.contains('is-active')) {
+            modalImage.classList.remove('is-active');
+            return;
+        }
+        modalImage.classList.add('is-active');
+    }
+
+    modalOpen.addEventListener('click', handleModal);
+    modalCloses.forEach(button => button.addEventListener('click', handleModal));
+
 </script>
 
 @endsection
