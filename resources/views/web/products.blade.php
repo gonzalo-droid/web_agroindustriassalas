@@ -4,4 +4,6 @@
     
     @include('web.products.hero')
 
+    @include('web.products.gallery-group')
+
 @endsection
