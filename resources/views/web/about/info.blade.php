@@ -2,25 +2,24 @@
     <div class="tile is-6 is-parent column info-left">
         <div class="tile is-child pink post">
             <p class="title is-2 name"> {{ __('AgroIndustrias Salas') }} </p>
-{{--            <p class="subtitle has-text-grey job"> {{ __('About Us') }} </p>--}}
             <hr class="hr" />
             <div class="content has-text-grey description">
-                <p>
+                <p class="has-text-justified">
                     {{ __('Somos una empresa dedicada a la elaboración, comercialización y exportación de alimentos saludables de alta calidad, cuyo objetivo es consolidarse en el mercado internacional con productos frescos, deshidratados y enlatados.') }}
                 </p>
-                <p>
+                <p class="has-text-justified">
                     {{ __('Nos caracterizamos por tener un equipo de trabajo proactivo y comprometido, que nos permite ofrecer productos de calidad e inocuedad, buen trato y servicio a nuestros clientes y colaboradores') }}
                 </p>
                 <div class="content">
                     <h4 class="hast-text-dark"> {{ __('Mission') }} </h4>
-                    <p>
+                    <p class="has-text-justified">
                         {{ __('Desarrollar, producir y comercializar productos alimenticios de alta calidad para la agro exportación y la venta nacional; logrando así el crecimiento rápido y sostenido de la compañía, generando valor a los accionitas, bienestar  a nuestros colaboradores y contribuyendo al desarrollo e imagen del Perú.') }}
                     </p>
                 </div>
 
                 <div class="content">
                     <h4 class="hast-text-dark"> {{ __('Vision') }} </h4>
-                    <p>
+                    <p class="has-text-justified">
                         {{ __('Ser una de las empresas líderes en la agro exportación de productos saludables con los más altos estándares de calidad, mediante la continua innovación de procesos y gestión en alimentos frescos, deshidratados y en conserva.') }}
                     </p>
                 </div>

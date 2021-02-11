@@ -7,7 +7,7 @@
       <br />
       <div class="columns">
         <div class="column">
-          <div class="card">
+          <div class="card mx-3">
             <div class="card-content">
               <div class="is-flex is-justify-content-center">
                 <figure class="image is-128x128">
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="column">
-          <div class="card">
+          <div class="card mx-3">
             <div class="card-content">
               <div class="is-flex is-justify-content-center">
                 <figure class="image is-128x128">
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="column">
-          <div class="card">
+          <div class="card mx-3">
             <div class="card-content">
               <div class="is-flex is-justify-content-center">
                 <figure class="image is-128x128">

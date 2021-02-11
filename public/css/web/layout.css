@@ -61,6 +61,19 @@
     color: var(--green-light);
 }
 
+.mega-menu {
+    width: 100vw;
+    height: 20vh;
+}
+.mega-menu {
+    justify-content: center;
+    align-items: center;
+}
+
+.mega-menu-image {
+    min-height: 100%;
+}
+
 /*
 
 =================================
@@ -82,6 +95,34 @@
 .slider {
     outline: none;
     border: none;
+}
+
+/*
+
+=================================
+            PARALLAX
+=================================
+
+*/
+
+#parallax {
+    background: url("/assets/web/images/parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax hr {
+    background: var(--green-light);
+}
+
+.hero-back {
+    background: url("/assets/web/images/products-hero.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*
@@ -208,11 +249,21 @@ textarea {
 }
 
 .info-left {
-    padding: 7% !important;
+    padding: 5% !important;
 }
 
 .info-right {
-    padding: 5% 0 5% 5% !important;
+    padding: 5% 0 0 0 !important;
+}
+
+@media (min-width: 768px) {
+    .info-left {
+        padding: 3.5% !important;
+    }
+
+    .info-right {
+        padding: 5% 0 5% 5% !important;
+    }
 }
 
 .image-info {
@@ -393,8 +444,8 @@ hr.rounded {
 .section-detail {
     background: linear-gradient(
         180deg,
-        rgba(136, 211, 13, 0.79) 0%,
-        rgba(98, 216, 26, 0.5) 26%,
+        rgba(204, 243, 142, 0.79) 0%,
+        /* rgba(136, 211, 13, 0.79) 0%, */ rgba(98, 216, 26, 0.5) 26%,
         rgb(255 255 255) 100%
     );
     padding-top: 3rem;
@@ -412,8 +463,15 @@ hr.rounded {
 }
 
 .is-logo {
-    width: 200px !important;
-    height: 96px !important;
+    width: 96px !important;
+    height: 64px !important;
+}
+
+@media (min-width: 768px) {
+    .is-logo {
+        width: 148px !important;
+        height: 84px !important;
+    }
 }
 
 .logo {

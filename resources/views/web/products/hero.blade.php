@@ -1,28 +1,28 @@
 <!--Hero-->
-<section id="hero" class="hero is-medium has-background-contrast">
+<section id="hero" class="hero is-medium hero-back">
     <div class="hero-body">
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <h1 class="title"> {{ __('Our Products') }} </h1>
-                    <p class="has-text-centered-mobile">
+                    <h1 class="title has-text-weight-semibold has-text-white"> {{ __('Our Products') }} </h1>
+                    <p class="has-text-centered-mobile has-text-weight-semibold has-text-white">
                         {{ __('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida rutrum quisque non tellus orci ac auctor. Quis enim lobortis scelerisque fermentum.') }}
                     </p>
                     <hr class="rounded">
                     <div class="is-divider" data-content=""></div>
 
-                    <p class="subtitle is-3 mt-2">
+                    <p class="subtitle is-3 mt-2 has-text-weight-semibold has-text-white">
                         {{ __('Benefits') }}
                     </p>
-                    <p class="has-text-centered-mobile">
+                    <p class="has-text-centered-mobile has-text-weight-semibold has-text-white">
                         <i class="fa fa-check has-text-grey-light pr-2" aria-hidden="true"></i>
                         {{ __('Lorem ipsum dolor sit amet') }}
                     </p>
-                    <p class="has-text-centered-mobile">
+                    <p class="has-text-centered-mobile has-text-weight-semibold has-text-white">
                         <i class="fa fa-check has-text-grey-light pr-2" aria-hidden="true"></i>
                         {{ __('Lorem ipsum dolor sit amet') }}
                     </p>
-                    <p class="has-text-centered-mobile">
+                    <p class="has-text-centered-mobile has-text-weight-semibold has-text-white">
                         <i class="fa fa-check has-text-grey-light pr-2" aria-hidden="true"></i>
                         {{ __('Lorem ipsum dolor sit amet') }}
                     </p>
