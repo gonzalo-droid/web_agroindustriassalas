@@ -2,15 +2,19 @@ const itemsMiniProduct = document.querySelectorAll(".item-mini-product");
 const itemProduct = document.querySelector(".item-product");
 const itemModalProduct = document.querySelector(".item-modal-product");
 
-function handleImagesOfProduct() {
-    const imageNow = itemProduct.src;
-    const imageReplace = this.src;
-    this.src = imageNow;
-    itemProduct.src = imageReplace;
+function handleGalleryProduct() {
+    itemProduct.src = this.src;
+    itemModalProduct.src = this.src;
+    [...itemsMiniProduct].map(item => {
+        if (item.src !== this.src) {
+            item.classList.remove("is-active");
+        }
+    });
+    this.classList.add("is-active");
 }
 
 itemsMiniProduct.forEach(item =>
-    item.addEventListener("click", handleImagesOfProduct)
+    item.addEventListener("click", handleGalleryProduct)
 );
 
 const modalImage = document.querySelector(".modal");

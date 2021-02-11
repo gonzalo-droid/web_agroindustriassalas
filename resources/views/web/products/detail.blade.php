@@ -8,6 +8,9 @@
                             <div class="columns">
                                 <div class="column is-2">
                                     <figure class="image is-64x64 is-clickable">
+                                        <img class="item-mini-product" src="{{ asset('/assets/img/product-detail/esparagus.png') }}">
+                                    </figure>
+                                    <figure class="image is-64x64 is-clickable">
                                         <img class="item-mini-product" src="{{ asset('/assets/img/product-detail/esparagus-1.png') }}">
                                     </figure>
                                     <figure class="image is-64x64 is-clickable">
