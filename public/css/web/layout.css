@@ -558,6 +558,7 @@ hr.rounded {
 
 */
 
+.item-product,
 .item-mini-product.is-active {
     border-radius: 5px;
     border: 3px solid var(--green-dark);

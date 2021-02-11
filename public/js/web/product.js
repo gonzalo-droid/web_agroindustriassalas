@@ -2,6 +2,10 @@ const itemsMiniProduct = document.querySelectorAll(".item-mini-product");
 const itemProduct = document.querySelector(".item-product");
 const itemModalProduct = document.querySelector(".item-modal-product");
 
+const modalImage = document.querySelector(".modal");
+const modalCloses = document.querySelectorAll(".close-modal");
+const modalOpen = document.querySelector(".open-modal");
+
 function handleGalleryProduct() {
     itemProduct.src = this.src;
     itemModalProduct.src = this.src;
@@ -13,14 +17,6 @@ function handleGalleryProduct() {
     this.classList.add("is-active");
 }
 
-itemsMiniProduct.forEach(item =>
-    item.addEventListener("click", handleGalleryProduct)
-);
-
-const modalImage = document.querySelector(".modal");
-const modalCloses = document.querySelectorAll(".close-modal");
-const modalOpen = document.querySelector(".open-modal");
-
 function handleModal() {
     if (modalImage.classList.contains("is-active")) {
         modalImage.classList.remove("is-active");
@@ -28,15 +24,6 @@ function handleModal() {
     }
     modalImage.classList.add("is-active");
 }
-
-modalOpen.addEventListener("click", handleModal);
-modalCloses.forEach(button => button.addEventListener("click", handleModal));
-
-document.querySelectorAll("#tab li").forEach(function(tabElement) {
-    tabElement.onclick = function() {
-        toggleTab(this.id, this.dataset.target);
-    };
-});
 
 function toggleTab(selectedNav, targetId) {
     const tabElements = document.querySelectorAll("#tab li");
@@ -65,4 +52,18 @@ function setMainTab(id) {
     });
 }
 
+itemsMiniProduct.forEach(item =>
+    item.addEventListener("click", handleGalleryProduct)
+);
+
+modalOpen.addEventListener("click", handleModal);
+modalCloses.forEach(button => button.addEventListener("click", handleModal));
+
+document.querySelectorAll("#tab li").forEach(function(tabElement) {
+    tabElement.onclick = function() {
+        toggleTab(this.id, this.dataset.target);
+    };
+});
+
 setMainTab("pane-1");
+Array.from(itemsMiniProduct)[0].classList.add("is-active");
