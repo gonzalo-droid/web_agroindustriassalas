@@ -10,11 +10,47 @@
                     {{ __('Lorem ipsum dolor sit amet.') }}
                 </h2>
                 <br>
-                {{-- <p class="has-text-centered">
-                    <a class="button is-medium is-button-green button is-link is-light has-text-weight-semibold">
-                        {{ __('Know more') }}
-                    </a>
-                </p> --}}
+                <div class=" grid-cols-3 gap-4 flex space-x-4">
+                    
+                    <div class="card flex-1">
+                        <div class="card-content">
+                          <div class="is-flex is-justify-content-center">
+                            <i class="fab fa-pagelines" style="font-size: 50px"></i>
+                          </div>
+                          <h5 class="title is-4 has-text-centered" id="card-product-description"> {{ __('Fresh') }} </h5>                          
+                        </div>
+                      </div>
+                    <div class="card flex-1">
+                      <div class="card-content">
+                        <div class="is-flex is-justify-content-center">
+                          <i class="fab fa-pagelines" style="font-size: 50px"></i>
+                        </div>
+                        <h5 class="title is-4 has-text-centered" id="card-product-description"> {{ __('Fresh') }} </h5>
+                        
+                      </div>
+                    </div>
+                  
+                 
+                    <div class="card flex-1 ">
+                      <div class="card-content">
+                        <div class="is-flex is-justify-content-center">
+                          <i class="fab fa-pagelines" style="font-size: 50px"></i>
+                        </div>
+                        <h5 class="title is-4 has-text-centered" id="card-product-description"> {{ __('Fresh') }} </h5>
+                        
+                      </div>
+                    </div>
+                    <div class="card flex-1">
+                        <div class="card-content">
+                          <div class="is-flex is-justify-content-center">
+                            <i class="fab fa-pagelines" style="font-size: 50px"></i>
+                          </div>
+                          <h5 class="title is-4 has-text-centered" id="card-product-description"> {{ __('Fresh') }} </h5>
+                          
+                        </div>
+                      </div>
+                  
+                </div>
             </div>
         </div>
 
