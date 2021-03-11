@@ -191,7 +191,7 @@
 
 */
 
-#contact-section {
+/* #contact-section {
     background-image: url(https://technext.github.io/tropika//images/orange-dish.png);
     background-repeat: no-repeat;
     height: 500px;
@@ -202,7 +202,7 @@
     margin-bottom: 100px;
     background-position: right center;
     overflow: hidden;
-}
+} */
 
 input.is-custom-field {
     border-bottom: 0.8px solid #252525 !important;
@@ -454,7 +454,7 @@ hr.rounded {
     background: linear-gradient(
         180deg,
         rgba(204, 243, 142, 0.79) 0%,
-        /* rgba(136, 211, 13, 0.79) 0%, */ rgba(98, 216, 26, 0.5) 26%,
+        rgba(98, 216, 26, 0.5) 26%,
         rgb(255 255 255) 100%
     );
     padding-top: 3rem;

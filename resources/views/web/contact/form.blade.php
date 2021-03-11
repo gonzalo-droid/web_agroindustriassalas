@@ -61,17 +61,10 @@
               </div>
             </div>
           </form>
-          <div class="column invisible" 
-          style="background-image: url('/assets/img/tools/contact.png');  
+          <div class="column is-hidden-mobile" style="background-image: url('/assets/img/tools/contact.png');  
                 background-position: center; 
                 background-repeat: no-repeat; 
                 background-size: cover; ">
-          
-            {{-- <img class="shadow rounded" src="{{ asset('/assets/img/tools/contact.png') }}" alt="" /> --}}
-
-            {{-- <figure class="image is-covered w-full">
-              <img class="shadow rounded" src="{{ asset('/assets/img/tools/contact.png') }}" alt="" />
-            </figure> --}}
           </div>
         </div>
       </div>
