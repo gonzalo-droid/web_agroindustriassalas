@@ -537,7 +537,7 @@ hr.rounded {
 }
 
 .grid-gallery__image:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .grid-gallery__text {

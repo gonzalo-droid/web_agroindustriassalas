@@ -55,14 +55,23 @@
             <div class="field">
               <label class="label"></label>
               <div class="control">
-                <button class="button is-primary is-loading is-medium is-fullwidth" type="submit"> {{ __('Submit') }} </button>
+                {{-- <button class="button is-primary is-loading is-medium is-fullwidth" type="submit"> {{ __('Submit') }} </button> --}}
+
+                <button class="button is-primary is-medium is-fullwidth" type="submit"> {{ __('Submit') }} </button>
               </div>
             </div>
           </form>
-          <div class="column">
-            <figure class="image is is-covered">
-              <img src="{{ asset('/assets/web/images/products/mango/mango.png') }}" alt="" />
-            </figure>
+          <div class="column invisible" 
+          style="background-image: url('/assets/img/tools/contact.png');  
+                background-position: center; 
+                background-repeat: no-repeat; 
+                background-size: cover; ">
+          
+            {{-- <img class="shadow rounded" src="{{ asset('/assets/img/tools/contact.png') }}" alt="" /> --}}
+
+            {{-- <figure class="image is-covered w-full">
+              <img class="shadow rounded" src="{{ asset('/assets/img/tools/contact.png') }}" alt="" />
+            </figure> --}}
           </div>
         </div>
       </div>

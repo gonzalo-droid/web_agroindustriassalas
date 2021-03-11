@@ -1,6 +1,6 @@
 <div class="columns has-background-contrast">
     <div class="tile is-6 is-parent column info-left">
-        <div class="tile is-child pink post">
+        <div class="tile is-child pink post px-2">
             <p class="title is-2 name"> {{ __('AgroIndustrias Salas') }} </p>
             <hr class="hr" />
             <div class="content has-text-grey description">
